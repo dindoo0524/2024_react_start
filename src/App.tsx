@@ -14,8 +14,8 @@ function App() {
     if (todo === "") {
       return;
     }
-    setTodos([
-      ...todos,
+    setTodos((current) => [
+      ...current,
       {
         text: todo,
       },
