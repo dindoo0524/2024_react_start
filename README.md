@@ -1,3 +1,12 @@
+# use API
+
+for HomePage
+https://yts.mx/api/v2/list_movies.json?minimum_rating=8.8&sort_by=year
+https://yts.mx/api/v2/list_movies.json?minimum_rating=8.8&sort_by=rating	
+
+for DetailPage
+https://yts.mx/api/v2/movie_details.json?movie_id=${id}
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
